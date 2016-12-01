@@ -26,19 +26,19 @@ MW,Ron's brother trains dragons.
 MW,Hermione tries to liberate the elves.
 MW,Professor McGonagall is head of Gryffindor house.
 MW,Professor Snape is head of Slytherin house.
-MW,Professor Sprout is head if Hufflepuff house.
+MW,Professor Sprout is head of Hufflepuff house.
 MW,Professor Flitwick is head of Ravenclaw house.
 MW,Salazar Slytherin is one of the founders of Hogwarts.
 MW,Godric Gryffindor is one of the founders of Hogwarts.
 MW,Rowena Ravenclaw is one of the founders of Hogwarts.
 MW,Helga Hufflepuff is one of the founders of Hogwarts.
 MW,Salazar Slytherin built the Chamber of Secrets.
-MW,Some students are Muggle-born.
+MW,Some students are Muggleborn.
 MW,Harry flew on a Nimbus 2000.
 MW,"When Harry's broom broke, he got a Firebolt."
 MW,"Amulets are effective against werewolves, dementors and inferi."
 MW,Harry was left lots of Galleons by his parents.
-MW,In Quidditch there are three seekers.
+MW,In Quidditch there are two seekers.
 MW,A seeker can end a Quidditch match by catching the golden snitch.
 MW,Beaters hit Bludgers with short baseball bats.
 MW,The Keeper guards the goal posts.
@@ -49,16 +49,15 @@ MW,A Grindylow is a water demon.
 MW,Harry fought merpeople in the TriWizard Tournament.
 MW,Gillyweed can let people breathe under water.
 MW,Neville is good at herbology.
-MW,Regulus Black was a death eater.
 MW,Regulus Black betrayed Lord Voldemort.
 MW,Gregorovitch is a wandmaker.
 MW,The Gaunt family is descended from Slytherin.
 MW,Dolores Umbridge succeeded Dumbledore as Headmaster.
-MW,Mad-Eye Moody has one real eye and one magic replacement.
+MW,Mad Eye Moody has one real eye and one magic replacement.
 MW,Griphook is a goblin at Gringotts.
 MW,Gringotts is the Wizard Bank.
 MW,Gobbledegook is the goblin language.
-MW,Phineas Nigellus was a headmaster of Hogwarts.
+MW,Phineas Nigellus was a headmaster at Hogwarts.
 MW,Bathilda Bagshot wrote A History of Magic
 MW,Aberforth is Albus's brother.
 MW,Peeves is the school poltergeist.
@@ -88,8 +87,8 @@ MW,Squibs are muggles born to wizarding parents.
 MW,Voldemort killed Cedric Diggory.
 MW,Cornelius Fudge was the Minister of Magic.
 MW,The Minister for Magic is the British wizarding leader.
-MW,Hermione eventually became Minister of Magic.
-MW,Kingsley Shacklebolt was also Minister of Magic.
+MW,Hermione eventually became Minister for Magic.
+MW,Kingsley Shacklebolt was also Minister for Magic.
 MW,Harry Potter survived the killing curse.
 MW,There are three unforigveable curses.
 MW,The Cruciatus curse inflicts suffering.
@@ -98,7 +97,7 @@ MW,Avada Kedavra is the killing cure.
 MW,The Three Broomsticks is a popular inn.
 MW,Blast-ended Skrewts are my favorite magical creature.
 MW,Hagrid specially bred the blast-ended skrewts.
-MW,Viktor Krum is a profession Quidditch player.
+MW,Viktor Krum is a professional Quidditch player.
 MW,Fenrir Greyback is a werewolf.
 MW,Fenrir Greyback served Voldemort.
 MW,Voldemort tried to recruit giants for his army.
@@ -136,7 +135,7 @@ MW,Harry saw himself with his parents in the Mirror of Erised.
 MW,Dumbledore also saw himself with his family in the Mirror of Erised.
 MW,Nagini was Voldemort's snake.
 MW,Nagini was also one of Voldemort's horcuxes.
-MW,Nevilla Longbottom killed Nagini with Gryffindor's sword.
+MW,Neville Longbottom killed Nagini with Gryffindor's sword.
 MW,Professor Slughorn plays favorites with his students.
 MW,Harry Potter has his mother's eyes.
 MW,Severus Snape is the Half Blood Prince.
@@ -145,10 +144,11 @@ MW,Professor Slughorn duelled Lord Voldemort.
 MW,Rubeus Hagrid has a flying motorcycle.
 MW,Buckbeak is a hippogriff.
 MW,Percy Weasley disowned his family.
-MW,Dolores Umbmbridge was sentenced to Azkaban.
+MW,Dolores Umbridge was sentenced to Azkaban.
 MW,Hagrid brought Harry Potter a birthday cake.
 MW,A Pensieve lets you store and revisit memories.
-MW,
+MW,Albus Dumbledore owns a Pensieve.
+MW,Regulus Black was a Death Eater.
 MS,Voldemort has seven horcruxes.
 MS,I solemly swear that I'm up to no good.
 MS,The Marauder's Map is a map of Hogwarts.
@@ -161,7 +161,7 @@ MS,Gryffindors are brave.
 MS,Ravenclaws are intelligent.
 MS,Hufflepuffs are loyal.
 MS,Slytherins are ambitious.
-MS,The Ravenclaw common room in in a tower.
+MS,The Ravenclaw common room is in a tower.
 MS,The Hufflepuff common room is near the kitchen.
 MS,The Gryffindor common room is in a tower.
 MS,The Slytherin common room is in the dungeons.
@@ -216,9 +216,9 @@ MS,Aragog lives in the Forbidden Forest.
 MS,Spiders are afraid of snakes.
 MS,Chocolate helps people recover from Dementor exposure.
 MS,Dumbledore's patronus was a phoenix.
-MS,Fawks was Dumbledore's pet phoenix.
+MS,Fawkes was Dumbledore's pet phoenix.
 MS,Harry dropped the Resurrection Stone in the Forbidden Forest.
-MS,Quirrel fed off of unicorns in the Forbidden Forest.
+MS,Quirrell fed off of unicorns in the Forbidden Forest.
 MS,Harry buried the Elder Wand with Dumbledore.
 MS,Harry used the Elder Wand to repair his original wand.
 MS,Molly Weasley killed Belatrix Lestrange.
@@ -229,11 +229,11 @@ MS,Hermione helped Harry and Ron with their homework.
 MS,Hermione accidentally used polyjuice with cat hair.
 MS,Igor Karkaroff was a Death Eater.
 MS,Igor Karkaroff was headmaster of Durmstrang.
-MS,Barty Crouch Jr. used polyjuice to masquerade as Moody.
+MS,Barty Crouch Jr used polyjuice to masquerade as Moody.
 MS,Ron's rat was Peter Pettigrew.
 MS,Harry owned an owl named Hedwig.
 MS,Owls deliver the mail.
-MS,Harry's first broom was a Nimbus 2000.
+MS,Harry's first broom was a Nimbus two thousand.
 MS,Harry's broom was destroyed by the Womping Willow.
 MS,Sirius Black sent Harry a Firebolt.
 MS,Harry and Ron crashed into the Womping Willow.
@@ -260,8 +260,8 @@ MS,Peter Pettigrew told Voldemort where the Potter family was hiding.
 MS,Dumbledore was headmaster of Hogwarts.
 MS,Snape was a spy for the Order of the Phoenix.
 MS,Both Harry and Neville fit the prophecy.
-MS,Neville's parent were tortured until they went crazy.
-MS,St. Mungo's is a wizarding hospital.
+MS,Neville's parents were tortured until they went crazy.
+MS,St Mungo's is a wizarding hospital.
 MS,Hogwarts students buy school supplies at Diagon Alley.
 MS,Ollivanders is the best wand shop in Britain.
 MS,Flourish and Blotts is a bookstore.
@@ -290,7 +290,7 @@ MS,Snape was in love with Lily Potter.
 MS,LIly and James Potter were Harry's parents.
 MS,Harry was raised by the Dursley family.
 MS,Earning the most house points earns the house cup.
-MS,Quirrel tried to make Harry fall off his broom.
+MS,Quirrell tried to make Harry fall off his broom.
 MS,Hermione set Snape's robes on fire.
 MS,Professor McGonagall is an animagus.
 MS,Professor McGonagall can turn into a cat.
@@ -309,12 +309,12 @@ AT,The Great Hall has an enchanted ceiling.
 AT,Hogwarts has four Houses.
 AT,"The four Houses are Gryffindor, Ravenclaw, Slytherin, and Hufflepuff."
 AT,My favorite Harry Potter book is the Goblet of Fire.
-AT,Sirius Black escapes in the Prisoner of Azkaban.
+AT,Sirius Black escapes Azkaban.
 AT,Dementors guard Azkaban.
 AT,Harry Potter's best friends are Hermione Granger and Ron Weasley.
 AT,Harry Potter is a Gryffindor.
 AT,There are seven Harry Potter books.
-AT,Who is your favorite character?
+AT,The Goblet of Fire is used for the Triwizard Tournament.
 AT,My Hogwarts House is Gryffindor.
 AT,My Hogwarts House is Ravenclaw.
 AT,My Hogwarts House is Slytherin.
@@ -324,3 +324,128 @@ AT,The Malfoy family is Pureblood.
 AT,Snape is a spy for the Order of the Phoenix.
 AT,The Order of the Phoenix is led by Albus Dumbledore.
 AT,Harry defeats Voldemort.
+AT,The Order of the Phoenix headquarters is Number Twelve Grimmauld Place.
+AT,Hermoine Granger started Dumbledore's Army.
+AT,Dumbledore's Army met in the Room of Requirement.
+AT,Harry's patronus is a stag.
+AT,Oliver Wood was the Gryffindor quidditch captain.
+AT,Fred and George were on the Gryffindor quidditch team.
+AT,Harry and Draco were rival Seekers.
+AT,Cedric Diggory was the Hogwarts Triwizard champion.
+AT,Viktor Krum attended Durmstrang.
+AT,Nymphadora Tonks was a Hufflpuff.
+AT,The Grey Lady is Helena Ravenclaw.
+AT,Sirius Black gave Harry a Firebolt.
+AT,"The Marauders were made of Moony, Wormtail, Padfoot, and Prongs."
+AT,Remus Lupin's nickname was Moony.
+AT,Peter Pettigrew's nickname was Wormtail.
+AT,Sirius Black's nickname was Padfoot.
+AT,James Potter's nickname was Prongs.
+AT,Peter Pettigrew betrayed the Potters.
+AT,Peter Pettigrew was a Death Eater.
+AT,Sirius Black is killed by Bellatrix Lestrange.
+AT,Gringotts is located in Diagon Alley.
+AT,Bill Weasley was a Curse Breaker.
+AT,Charlie Weasley worked with Dragons.
+AT,Hagrid named a dragon Norbert.
+AT,Norbert was a Norwegian Ridgeback.
+AT,Hagrid gave Hedwig to Harry for his birthday.
+AT,Most Slytherins are Purebloods.
+AT,Draco Malfoy is a Slytherin.
+AT,Draco Malfoy was turned into a ferret.
+AT,Narcissa Malfoy is Draco's mother.
+AT,Narcissa Malfoy lied to Voldemort.
+AT,There are three Deathly Hallows.
+AT,The Resurrection Stone is a Deathly Hallow.
+AT,The Invisibility Cloak is a Deathly Hallow.
+AT,The Elder Wand is a Deathly Hallow.
+AT,The owner of all three Deathly Hallows is the Master of Death.
+AT,Voldemort sought the Elder Wand.
+AT,Harry Potter is the Master of Death.
+AT,Ginny Weasley is Ron Weasley's sister.
+AT,Ginny is a year younger than Ron.
+AT,Ginny plays Quidditch as a Chaser.
+AT,Ron plays Quidditch as a Keeper.
+AT,Ron and Hermione are Harry's best friends.
+AT,The Weasleys are Purebloods.
+AT,Harry is a Halfbood.
+AT,Hermione is a Muggleborn.
+AT,Muggleborns don't have magical parents.
+AT,Peter Pettigrew helped resurrect Voldemort.
+AT,Voldemort's real name is Tom Riddle.
+AT,Voldemort is a Halfblood.
+AT,Dobby rescues Harry and friends from the Malfoy Manor.
+AT,Bellatrix Lestrange tortures Hermione.
+AT,Students study for seven years at Hogwarts.
+AT,There are seven required subjects for Hogwarts students.
+AT,Professor McGonagall teaches Transfiguration.
+AT,Professor Snape teaches Potions.
+AT,The Basilisk lived in the Chamber of Secrets.
+AT,Inferi are animated dead bodies.
+AT,Snape kills Dumbledore.
+AT,Barty Crouch Jr was a Death Eater.
+AT,Regulus Black was Sirius' brother.
+AT,Sirius Black and James Potter were best friends.
+AT,Sirius Black was accused of betraying the Potters.
+AT,Sirius Black spent twelve years in Azkaban.
+AT,Sirius Black turned into a black dog.
+AT,Harry Potter's godfather is Sirius Black.
+AT,Hermione is the brightest witch of her age.
+AT,British witches and wizards attend Hogwarts.
+AT,Nymphadora Tonks hates her first name.
+AT,Nymphadora Tonks is a member of the Order of the Phoenix.
+AT,Voldemort and Harry have brother wands.
+AT,Galleons are Wizarding money.
+AT,Dolores Umbridge works for the Ministry of Magic.
+AT,The Ministry of Magic is the government system.
+AT,Rita Skeeter turns into a beetle.
+AT,Professor Flitwick teaches Charms.
+AT,Professor Sprout teaches Herbology.
+AT,Grindelwald becomes a Dark wizard.
+AT,Third year students and up can go to Hogsmeade.
+AT,Hogsmeade is a Wizarding village.
+AT,Hogsmeade is near Hogwarts.
+AT,Aberforth runs the Hog's Head.
+AT,The first Dumbledore Army's meeting is at the Hog's Head.
+AT,Peeves gets petrified by the Basilisk.
+AT,Mad Eye Moody practices constant vigilance!
+AT,Hagrid raised Aragog.
+AT,The Floo network runs through fireplaces.
+AT,The Weasleys took a portkey to the Quidditch World Cup.
+AT,Viktor Krum liked Hermione Granger.
+AT,Occlumency is guarding your mind.
+AT,Voldemort was skilled at Legilimency.
+AT,The Mirror of Erised shows your deepest desire.
+AT,Remus Lupin taught Defense Against the Dark Arts.
+AT,Remus dies in the Battle of Hogwarts.
+AT,Dolores Umbridge had the Slytherin locket.
+AT,Sirius treated Kreacher badly.
+AT,Cornelius Fudge didn't believe Voldemort came back.
+AT,Ron has six older brothers.
+AT,Beauxbatons came to Hogwarts for the Triwizard Tournament.
+AT,The Dursleys were afraid of Harry.
+AT,The Leakey Cauldron is in Diagon Alley.
+AT,Buckbeak escapes with Sirius.
+AT,Buckbeak lives at Number Twelve Grimmauld Place.
+AT,Krum suffers under the Imperius Curse.
+AT,Harry tries to cast the Cruciatus curse.
+AT,Buckbeak and Sirius live in caves for a year.
+AT,"The Dursley family is Vernon, Petunia, and Dudley."
+AT,Petunia Dursley and Lily Potter were sisters.
+AT,Ginny Weasley has a mean Bat Bogey Hex.
+AT,Ginny Weasley is very headstrong.
+AT,All of the Weasleys are redheads.
+AT,Legilimency and Occlumency are difficult to learn.
+AT,A Patronus is advanced magic.
+AT,Azkaban is the wizarding prison.
+AT,Dementors make you relive your unhappiest memories.
+AT,Kreacher is a house elf.
+AT,Dobby is a free house elf.
+AT,House elves work in the Hogwarts kitchens.
+AT,Argus Filch is the Hogwarts caretaker.
+AT,The Defense Against the Dark Arts position is cursed.
+AT,Argus Filch is a Squib.
+AT,Parseltongue is the ability to talk to snakes.
+AT,Parseltongue is associated with Dark Wizards.
+AT,Gildroy Lockhart accidentally Oblivated himself.
+AT,Harry wins a bottle of Felix Felicis.
