@@ -31,12 +31,11 @@ with open("transcription_output.txt", "w") as output:
 					output.write("0")
 				if(num_ang < 100):
 					output.write("0")
-				num_ang += 1
 				output.write(str(num_ang) + " ")
+				num_ang += 1
 			# Sentence
 			sentence = entry["Sentence"]
 			sentence = sentence.upper()[:-1]
-			print(sentence)
 			output.write(sentence + '\n')
 	input.closed
 output.closed
