@@ -8,16 +8,17 @@ import os
 
 #Functions
 
-def prompts2mlf (generationDirectory):
-	os.system("./" + generationDirectory + "/prompts2mlf")
+#Generates words.mlf file
+def prompts2mlf (generationDirectory, corpusDirectory, modelDirectory):
+	os.system("perl " + generationDirectory + "/prompts2mlf " + modelDirectory + "/words.mlf " + corpusDirectory + "/transcription_output.txt")
 
+#Generates wlist file
 def prompts2wlist (generationDirectory, corpusDirectory, modelDirectory):
-	print("perl " + generationDirectory + "/prompts2wlist " + corpusDirectory + "/transcription_output.txt " + modelDirectory + "/wlist")
 	os.system("perl " + generationDirectory + "/prompts2wlist " + corpusDirectory + "/transcription_output.txt " + modelDirectory + "/wlist")
 
 #This generates the phones, mkphones, and words files
 def HLed (generationDirectory, modelDirectory):
-	call("HLed -d " + generationDirectory + "/dict.txt -i " + modelDirectory + "/phones0.mlf " + modelDirectory + "/mkphones0.led " + modelDirectory + "/words.mlf")
+	os.system("HLed -d " + generationDirectory + "/dict.txt -i " + modelDirectory + "/phones0.mlf " + generationDirectory + "/mkphones0.led " + modelDirectory + "/words.mlf")
 
 #This generates the dictionary and monophones files
 def HDMan (generationDirectory, modelDirectory):
@@ -60,3 +61,5 @@ for dirName, subDirs, files in os.walk(corpusDirectory):
 			audio.append(dirName + "/" + file)
 
 prompts2wlist(generationDirectory, corpusDirectory, modelDirectory)
+prompts2mlf(generationDirectory, corpusDirectory, modelDirectory)
+HLed(generationDirectory, modelDirectory)
