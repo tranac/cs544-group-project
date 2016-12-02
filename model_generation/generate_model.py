@@ -22,23 +22,35 @@ def HLed (generationDirectory, modelDirectory):
 
 #This generates the dictionary and monophones files
 def HDMan (generationDirectory, modelDirectory):
-	call("HDMan -A -D -T 1 -m -w " + modelDirectory + "/wlist -n " + modelDirectory + "/monophones1 -i -l " + modelDirectory + "/dlog " + modelDirectory + "/dict " + generationDirectory + "/dict.txt")
+	os.system("HDMan -A -D -T 1 -m -w " + modelDirectory + "/wlist -n " + modelDirectory + "/monophones1 -i -l " + modelDirectory + "/dlog " + modelDirectory + "/dict " + generationDirectory + "/dict.txt")
 
 #This generates the .mfc files for the .wav files
 def HCopy (generationDirectory, modelDirectory):
-	call("HCopy -A -D -T 1 -C " + generationDirectory + "/config -S " + modelDirectory + "/codetr.scp")
+	os.system("HCopy -A -D -T 1 -C " + generationDirectory + "/config -S " + modelDirectory + "/codetr.scp")
+
+#This generates the initial HMM
+def HCompV (generationDirectory, modelDirectory):
+	os.system("HCompV -A -D -T 1 -C " + generatoinDirectory + "/config2 -f 0.01 -m -S " + modelDirectory + "/train.scp -M " + modelDirectory + "/hmm0 " + modelDirectory +"/proto")
 
 #This does the learning (0-1, 1-2, 2-3, 5-6, 6-7, 7-8, 8-9)
 def HERest (generationDirectory, modelDirectory, hmm, monophones):
-	call("HERest -A -D -T 1 -C " + generationDirectory + "/config2 -I " + modelDirectory + "/phones0.mlf -t 250.0 150.0 1000.0 -S " + modelDirectory + "/train.scp -H " + modelDirectory + "/hmm" + str(hmm) + "/macros -H " + modelDirectory + "/hmm" + str(hmm) + "/hmmdefs -M " + modelDirectory + "/hmm" + str(hmm+1) + " " + modelDirectory + "/monophones" + str(monophones))
+	os.system("HERest -A -D -T 1 -C " + generationDirectory + "/config2 -I " + modelDirectory + "/phones0.mlf -t 250.0 150.0 1000.0 -S " + modelDirectory + "/train.scp -H " + modelDirectory + "/hmm" + str(hmm) + "/macros -H " + modelDirectory + "/hmm" + str(hmm) + "/hmmdefs -M " + modelDirectory + "/hmm" + str(hmm+1) + " " + modelDirectory + "/monophones" + str(monophones))
 
 #This fixes silence models (hmm4 to hmm5)
 def HHEd (generationDirectory, modelDirectory, hmm):
-	call("HHEd -A -D -T 1 -H " + modelDirectory + "/hmm" + str(hmm) + "/macros -H " + modelDirectory + "/hmm" + str(hmm) + "/hmmdefs -M " + modelDirectory + "/hmm" + str(hmm+1) + " " + generationDirectory + "/sil.hed " + modelDirectory + "/monophones1")
+	os.system("HHEd -A -D -T 1 -H " + modelDirectory + "/hmm" + str(hmm) + "/macros -H " + modelDirectory + "/hmm" + str(hmm) + "/hmmdefs -M " + modelDirectory + "/hmm" + str(hmm+1) + " " + generationDirectory + "/sil.hed " + modelDirectory + "/monophones1")
 
 #This realigns the transcriptions (hmm7)
 def HVite (generationDirectory, modelDirectory, hmm, monophones):
-	call("HVite -A -D -T 1 -l '*' -o SWT -C " + generationDirectory + "/config2 -H " + modelDirectory + "/hmm" + str(hmm) + "/macros -H " + modelDirectory + "/hmm" + str(hmm) + "/hmmdefs -i " + modelDirectory + "/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I " + modelDirectory + "/words.mlf -S " + modelDirectory + "/train.scp " + modelDirectory + "/dict " + modelDirectory + "/monophones1> HVite_log")
+	os.system("HVite -A -D -T 1 -l '*' -o SWT -C " + generationDirectory + "/config2 -H " + modelDirectory + "/hmm" + str(hmm) + "/macros -H " + modelDirectory + "/hmm" + str(hmm) + "/hmmdefs -i " + modelDirectory + "/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I " + modelDirectory + "/words.mlf -S " + modelDirectory + "/train.scp " + modelDirectory + "/dict " + modelDirectory + "/monophones1> HVite_log")
+
+def GenerateMacro (modelDirectory):
+	proto = open(modelDirectory + "/proto", "r")
+	vFloors = open(modelDirectory + "/hmm0/vFloors", "r")
+	macros = open(modelDirectory + "/hmm0/macros", "w")
+	for i in range(3):
+		macros.write(proto.readline())
+	macros.write(vFloors.read())
 
 #Main
 modelDirectory = "Models/" + sys.argv[1]
