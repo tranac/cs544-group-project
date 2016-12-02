@@ -62,10 +62,8 @@ with open("codetr.scp", "w") as codetr:
 
 with open("train.scp", "w") as train:
 	for file in train_files:
-		train.write(file + " ")
 		train.write(file[:-4] + ".mfc\n")
 
 with open("test.scp", "w") as test:
 	for file in test_files:
-		test.write(file + " ")
 		test.write(file[:-4] + ".mfc\n")
