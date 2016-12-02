@@ -1,0 +1,58 @@
+WARNING: no script file global.ded
+WARNING: no script file model_generation/dict.txt.ded
+
+Dictionary Usage Statistics
+---------------------------
+  Dictionary    TotalWords WordsUsed  TotalProns PronsUsed
+    dict.txt    132113        903     132113        903
+        dict       903        903        903        903
+
+903 words required, 0 missing
+
+New Phone Usage Counts
+---------------------
+  1. AH    :   365
+  2. AE    :   121
+  3. B     :   129
+  4. ER    :   167
+  5. F     :   110
+  6. AO    :    94
+  7. R     :   312
+  8. TH    :    21
+  9. IH    :   260
+ 10. L     :   280
+ 11. T     :   301
+ 12. IY    :   162
+ 13. AW    :    15
+ 14. K     :   214
+ 15. S     :   275
+ 16. D     :   235
+ 17. EH    :   153
+ 18. N     :   272
+ 19. Y     :    25
+ 20. UW    :    50
+ 21. Z     :   177
+ 22. OW    :    74
+ 23. M     :   149
+ 24. CH    :    37
+ 25. V     :    72
+ 26. EY    :    85
+ 27. G     :   103
+ 28. JH    :    39
+ 29. SH    :    24
+ 30. AY    :    61
+ 31. AA    :    95
+ 32. P     :   108
+ 33. NG    :    35
+ 34. UH    :    26
+ 35. DH    :    20
+ 36. OY    :     9
+ 37. W     :    63
+ 38. ZH    :     1
+ 39. EN    :     1
+ 40. HH    :    63
+ 41. I     :     4
+ 42. H     :     1
+ 43. EA    :     1
+
+Dictionary Models/All_100_2/dict created

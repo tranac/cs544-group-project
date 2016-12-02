@@ -2,7 +2,7 @@
 # Chooses a given percentage of files
 # from each speaker for training
 # Inputs:
-#	[directory] [percentage for training]
+#	[directory] [percentage for training] [model directory]
 
 import sys
 import os
@@ -10,6 +10,7 @@ from random import shuffle
 
 corpus_dict = sys.argv[1]
 train_perc	= float(sys.argv[2])/100.0
+model_directory = sys.argv[3]
 
 print (train_perc)
 
@@ -52,7 +53,7 @@ for i in range(0, amt_files):
 		test_files.append(max_files[i])
 
 # Generate codetr.scp, train.scp, and test.scp
-with open("codetr.scp", "w") as codetr:
+with open(model_directory + "/codetr.scp", "w") as codetr:
 	for file in train_files:
 		codetr.write(file + " ")
 		codetr.write(file[:-4] + ".mfc\n")
@@ -60,10 +61,10 @@ with open("codetr.scp", "w") as codetr:
 		codetr.write(file + " ")
 		codetr.write(file[:-4] + ".mfc\n")
 
-with open("train.scp", "w") as train:
+with open(model_directory + "/train.scp", "w") as train:
 	for file in train_files:
 		train.write(file[:-4] + ".mfc\n")
 
-with open("test.scp", "w") as test:
+with open(model_directory + "/test.scp", "w") as test:
 	for file in test_files:
 		test.write(file[:-4] + ".mfc\n")
