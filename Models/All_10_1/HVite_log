@@ -1,0 +1,168 @@
+HVite -A -D -T 1 -l * -o SWT -C model_generation/config2 -H Models/All_10_1/hmm7/macros -H Models/All_10_1/hmm7/hmmdefs -i Models/All_10_1/aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I Models/All_10_1/wordsFix.mlf -S Models/All_10_1/train.scp Models/All_10_1/dict Models/All_10_1/monophones1 
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+#                 ENORMALISE                  TRUE
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 45 physical / 45 logical HMMs
+Label file will be used to align each file
+Aligning File: corpus/angelica-recordings/ANG_039.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+REMUS LUPIN'S NICKNAME WAS MOONY  ==  [323 frames] -62.7584 [Ac=-20271.0 LM=0.0] (Act=9.6)
+Aligning File: corpus/mathew-recordings/MAT_004.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+HOGWARTS IS NEXT TO A LAKE  ==  [342 frames] -63.4187 [Ac=-21689.2 LM=0.0] (Act=10.0)
+Aligning File: corpus/max-recordings/MAX_142.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+PROFESSOR SLUGHORN DUELED LORD VOLDEMORT  ==  [342 frames] -61.4970 [Ac=-21032.0 LM=0.0] (Act=10.2)
+Aligning File: corpus/angelica-recordings/ANG_091.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+HARRY POTTER'S GODFATHER IS SIRIUS BLACK  ==  [385 frames] -61.3594 [Ac=-23623.4 LM=0.0] (Act=11.3)
+Aligning File: corpus/mathew-recordings/MAT_145.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+PROFESSOR MCGONAGALL CAN TURN INTO A CAT  ==  [537 frames] -62.8768 [Ac=-33764.8 LM=0.0] (Act=9.7)
+Aligning File: corpus/max-recordings/MAX_097.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+BLAST-ENDED SKREWTS ARE MY FAVORITE MAGICAL CREATURE  ==  [424 frames] -62.4380 [Ac=-26473.7 LM=0.0] (Act=8.1)
+Aligning File: corpus/angelica-recordings/ANG_122.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+CORNELIUS FUDGE DIDN'T BELIEVE VOLDEMORT CAME BACK  ==  [390 frames] -61.6795 [Ac=-24055.0 LM=0.0] (Act=9.9)
+Aligning File: corpus/mathew-recordings/MAT_103.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+HERMIONE DESTROYED HUFFLEPUFF'S CUP  ==  [481 frames] -58.0683 [Ac=-27930.9 LM=0.0] (Act=8.1)
+Aligning File: corpus/max-recordings/MAX_005.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+RAVENCLAW IS REPRESENTED BY A RAVEN  ==  [313 frames] -59.6454 [Ac=-18669.0 LM=0.0] (Act=11.3)
+Aligning File: corpus/angelica-recordings/ANG_008.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+HOGWARTS HAS FOUR HOUSES  ==  [317 frames] -60.7616 [Ac=-19261.4 LM=0.0] (Act=7.8)
+Aligning File: corpus/mathew-recordings/MAT_030.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+BELATRIX LESTRANGE WAS A PRISONER IN AZKABAN  ==  [509 frames] -63.5032 [Ac=-32323.1 LM=0.0] (Act=9.8)
+Aligning File: corpus/max-recordings/MAX_052.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+GREGOROVITCH IS A WANDMAKER  ==  [303 frames] -60.7597 [Ac=-18410.2 LM=0.0] (Act=8.9)
+Aligning File: corpus/angelica-recordings/ANG_073.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+PETER PETTIGREW HELPED RESURRECT VOLDEMORT  ==  [354 frames] -61.7932 [Ac=-21874.8 LM=0.0] (Act=10.4)
+Aligning File: corpus/mathew-recordings/MAT_070.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+QUIRRELL FED OFF OF UNICORNS IN THE FORBIDDEN FOREST  ==  [611 frames] -64.4112 [Ac=-39355.3 LM=0.0] (Act=9.3)
+Aligning File: corpus/max-recordings/MAX_020.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+DRINKING UNICORN BLOOD CAN SAVE YOUR LIFE  ==  [299 frames] -59.4637 [Ac=-17779.6 LM=0.0] (Act=9.9)
+Aligning File: corpus/angelica-recordings/ANG_132.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+THE DURSLEY FAMILY IS VERNON PETUNIA AND DUDLEY  ==  [445 frames] -59.6361 [Ac=-26538.1 LM=0.0] (Act=10.6)
+Aligning File: corpus/mathew-recordings/MAT_083.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+HARRY OWNED AN OWL NAMED HEDWIG  ==  [462 frames] -58.0237 [Ac=-26806.9 LM=0.0] (Act=10.4)
+Aligning File: corpus/max-recordings/MAX_118.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+PETER PETTIGREW TURNED INTO A RAT CALLED SCABBERS  ==  [377 frames] -61.3673 [Ac=-23135.5 LM=0.0] (Act=11.3)
+Aligning File: corpus/angelica-recordings/ANG_027.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+HERMIONE GRANGER STARTED DUMBLEDORE'S ARMY  ==  [426 frames] -60.9473 [Ac=-25963.6 LM=0.0] (Act=7.1)
+Aligning File: corpus/mathew-recordings/MAT_003.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+THE MARAUDER'S MAP IS A MAP OF HOGWARTS  ==  [428 frames] -62.4610 [Ac=-26733.3 LM=0.0] (Act=9.6)
+Aligning File: corpus/max-recordings/MAX_035.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SOME STUDENTS ARE MUGGLEBORN  ==  [281 frames] -61.1731 [Ac=-17189.6 LM=0.0] (Act=13.0)
+Aligning File: corpus/angelica-recordings/ANG_009.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+THE FOUR HOUSES ARE GRYFFINDOR RAVENCLAW SLYTHERIN AND HUFFLEPUFF  ==  [592 frames] -60.2824 [Ac=-35687.2 LM=0.0] (Act=11.1)
+Aligning File: corpus/mathew-recordings/MAT_150.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+RITA SKEETER WAS AN UNREGISTERED ANIMAGUS  ==  [555 frames] -64.8378 [Ac=-35985.0 LM=0.0] (Act=9.9)
+Aligning File: corpus/max-recordings/MAX_045.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+THERE ARE TWO BLUDGERS IN THE GAME  ==  [273 frames] -56.9388 [Ac=-15544.3 LM=0.0] (Act=9.4)
+Aligning File: corpus/angelica-recordings/ANG_100.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+RITA SKEETER TURNS INTO A BEETLE  ==  [319 frames] -61.2023 [Ac=-19523.5 LM=0.0] (Act=13.0)
+Aligning File: corpus/mathew-recordings/MAT_021.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+IGNOTUS PEVERELL OWNED THE CLOAK OF INVISIBILITY  ==  [620 frames] -60.2051 [Ac=-37327.2 LM=0.0] (Act=10.4)
+Aligning File: corpus/max-recordings/MAX_063.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+BELLATRIX LESTRANGE MURDERED DOBBY  ==  [370 frames] -59.9183 [Ac=-22169.8 LM=0.0] (Act=11.6)
+Aligning File: corpus/angelica-recordings/ANG_057.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+THERE ARE THREE DEATHLY HALLOWS  ==  [293 frames] -61.3691 [Ac=-17981.1 LM=0.0] (Act=7.6)
+Aligning File: corpus/mathew-recordings/MAT_142.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+QUIRRELL TRIED TO MAKE HARRY FALL OFF HIS BROOM  ==  [500 frames] -63.2683 [Ac=-31634.1 LM=0.0] (Act=8.5)
+Aligning File: corpus/max-recordings/MAX_127.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+FENRIR GREYBACK INFECTED REMUS LUPIN WITH LYCANTHROPY  ==  [444 frames] -60.8876 [Ac=-27034.1 LM=0.0] (Act=10.8)
+Aligning File: corpus/angelica-recordings/ANG_114.mfc
+Created lattice with 5 nodes / 4 arcs from label file
+VIKTOR KRUM LIKED HERMIONE GRANGER  ==  [317 frames] -63.2145 [Ac=-20039.0 LM=0.0] (Act=8.0)
+Aligning File: corpus/mathew-recordings/MAT_014.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+THE HUFFLEPUFF COMMON ROOM IS NEAR THE KITCHEN  ==  [472 frames] -63.6857 [Ac=-30059.7 LM=0.0] (Act=10.8)
+Aligning File: corpus/max-recordings/MAX_042.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+BEATERS HIT BLUDGERS WITH SHORT BASEBALL BATS  ==  [351 frames] -60.7361 [Ac=-21318.4 LM=0.0] (Act=8.2)
+Aligning File: corpus/angelica-recordings/ANG_106.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+HOGSMEADE IS NEAR HOGWARTS  ==  [282 frames] -61.8190 [Ac=-17433.0 LM=0.0] (Act=7.6)
+Aligning File: corpus/mathew-recordings/MAT_079.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+IGOR KARKAROFF WAS A DEATH EATER  ==  [397 frames] -62.5705 [Ac=-24840.5 LM=0.0] (Act=10.0)
+Aligning File: corpus/max-recordings/MAX_117.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+PETER PETTIGREW CUT OFF HIS FINGER  ==  [393 frames] -56.3643 [Ac=-22151.2 LM=0.0] (Act=12.9)
+Aligning File: corpus/angelica-recordings/ANG_013.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+HARRY POTTER'S BEST FRIENDS ARE HERMIONE GRANGER AND RON WEASLEY  ==  [502 frames] -60.2595 [Ac=-30250.3 LM=0.0] (Act=10.6)
+Aligning File: corpus/mathew-recordings/MAT_099.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+HARRY WAS ONE OF VOLDEMORT'S HORCRUXES  ==  [509 frames] -59.9968 [Ac=-30538.4 LM=0.0] (Act=10.2)
+Aligning File: corpus/max-recordings/MAX_114.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+PROFESSOR TRELAWNEY GAVE THE PROPHECY ABOUT VOLDEMORT'S DEFEAT  ==  [429 frames] -58.9734 [Ac=-25299.6 LM=0.0] (Act=10.6)
+Aligning File: corpus/angelica-recordings/ANG_128.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+BUCKBEAK LIVES AT NUMBER TWELVE GRIMMAULD PLACE  ==  [391 frames] -60.3962 [Ac=-23614.9 LM=0.0] (Act=11.1)
+Aligning File: corpus/mathew-recordings/MAT_141.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+EARNING THE MOST HOUSE POINTS EARNS THE HOUSE CUP  ==  [583 frames] -62.5596 [Ac=-36472.2 LM=0.0] (Act=8.6)
+Aligning File: corpus/max-recordings/MAX_096.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+THE THREE BROOMSTICKS IS A POPULAR INN  ==  [300 frames] -61.4566 [Ac=-18437.0 LM=0.0] (Act=9.4)
+Aligning File: corpus/angelica-recordings/ANG_037.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SIRIUS BLACK GAVE HARRY A FIREBOLT  ==  [349 frames] -60.2979 [Ac=-21044.0 LM=0.0] (Act=10.9)
+Aligning File: corpus/mathew-recordings/MAT_108.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+PETER PETTIGREW TOLD VOLDEMORT WHERE THE POTTER FAMILY WAS HIDING  ==  [657 frames] -61.2227 [Ac=-40223.3 LM=0.0] (Act=11.9)
+Aligning File: corpus/max-recordings/MAX_003.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SLYTHERIN IS REPRESENTED BY A SNAKE  ==  [380 frames] -61.3197 [Ac=-23301.5 LM=0.0] (Act=9.8)
+
+HTK Configuration Parameters[11]
+  Module/Tool     Parameter                  Value
+                  ENORMALISE                  TRUE
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+

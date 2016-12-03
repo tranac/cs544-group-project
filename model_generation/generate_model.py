@@ -56,6 +56,18 @@ def FixWords (modelDirectory):
 		else:
 			wordsFix.write(line)
 
+#This fixes dict, adding silence [silence] for adaptation at later stages
+def FixDict (modelDirectory):
+	dictionary = open(modelDirectory + "/dict", "r")
+	holderDictionary = open(modelDirectory + "/holderdict", "w")
+	holderDictionary.write(dictionary.read())
+
+	dictionary = open(modelDirectory + "/dict", "w")
+	holderDictionary = open(modelDirectory + "/holderdict", "r")
+	for line in holderDictionary:
+		dictionary.write(line)
+		if "[SHOWS]" in line:
+			dictionary.write("silence         [silence]\n")
 
 #Creates the .scp files that detail what .wav files are used for training and testing with randomness
 def GenerateDataSplit (generationDirectory, corpusDirectory, modelDirectory, trainingPercentage):
@@ -166,6 +178,8 @@ FixWords(modelDirectory)
 GenerateDataSplit(generationDirectory, corpusDirectory, modelDirectory, trainingPercentage)
 
 HDMan(generationDirectory, modelDirectory)
+
+FixDict(modelDirectory)
 
 GenerateMonophones(modelDirectory)
 
