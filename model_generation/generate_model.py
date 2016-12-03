@@ -67,7 +67,7 @@ def FixDict (modelDirectory):
 	for line in holderDictionary:
 		dictionary.write(line)
 		if "[SHOWS]" in line:
-			dictionary.write("silence         [silence]\n")
+			dictionary.write("sil             [sil]\n")
 
 #Creates the .scp files that detail what .wav files are used for training and testing with randomness
 def GenerateDataSplit (generationDirectory, corpusDirectory, modelDirectory, trainingPercentage):
