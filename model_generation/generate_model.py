@@ -56,7 +56,7 @@ def FixWords (modelDirectory):
 		else:
 			wordsFix.write(line)
 
-#This fixes dict, adding silence [silence] for adaptation at later stages
+#This fixes dict, adding sil [sil] sil for adaptation at later stages
 def FixDict (modelDirectory):
 	dictionary = open(modelDirectory + "/dict", "r")
 	holderDictionary = open(modelDirectory + "/holderdict", "w")
